@@ -1,0 +1,1089 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medieval History | Complete Study Guide</title>
+
+<style>
+:root {
+  --navy:#10243e;
+  --blue:#1765a5;
+  --cyan:#19a5b5;
+  --paper:#f4f7fb;
+  --white:#ffffff;
+  --text:#182638;
+  --muted:#66758a;
+  --border:#dce5ef;
+  --gold:#e5ae48;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--text);
+  font-family:system-ui,-apple-system,Arial,sans-serif;
+  line-height:1.7;
+}
+header{
+  background:linear-gradient(120deg,#10243e,#14578b);
+  color:white;
+  padding:36px 22px;
+}
+.header-inner{max-width:1150px;margin:auto}
+header h1{font-size:clamp(30px,5vw,52px);line-height:1.15;margin:10px 0}
+header p{max-width:750px;color:#d9eafa}
+.eyebrow{
+  text-transform:uppercase;
+  letter-spacing:3px;
+  font-size:12px;
+  font-weight:800;
+  color:#75dce7;
+}
+nav{
+  background:#fff;
+  border-bottom:1px solid var(--border);
+  position:sticky;
+  top:0;
+  z-index:10;
+  padding:10px 16px;
+}
+.nav-inner{
+  max-width:1150px;margin:auto;
+  display:flex;gap:10px;align-items:center;
+  overflow-x:auto;
+}
+nav a{
+  color:var(--navy);
+  text-decoration:none;
+  font-weight:700;
+  white-space:nowrap;
+  padding:8px 12px;
+  border-radius:8px;
+}
+nav a:hover{background:#eaf4fb}
+main{max-width:1150px;margin:auto;padding:24px 18px 70px}
+.hero{
+  background:white;border:1px solid var(--border);
+  padding:25px;border-radius:16px;margin-bottom:22px;
+}
+.hero h2{margin-top:0}
+.stats{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:12px;margin-top:20px;
+}
+.stat{
+  background:#eef6fc;padding:15px;border-radius:12px;
+  text-align:center;
+}
+.stat strong{display:block;font-size:25px;color:var(--blue)}
+.search{
+  width:100%;padding:15px 17px;border:1px solid var(--border);
+  border-radius:12px;font-size:16px;margin:10px 0 20px;
+}
+.unit{
+  margin:35px 0 15px;padding:14px 18px;
+  color:white;background:var(--blue);
+  border-radius:10px;font-size:20px;
+}
+.unit.unit3{background:#137b83}
+.topic{
+  background:white;border:1px solid var(--border);
+  border-radius:14px;margin:14px 0;overflow:hidden;
+  box-shadow:0 3px 12px #172c4510;
+}
+.topic summary{
+  cursor:pointer;list-style:none;padding:19px 22px;
+  font-weight:800;font-size:18px;
+  display:flex;gap:13px;align-items:center;
+}
+.topic summary::-webkit-details-marker{display:none}
+.topic summary:after{content:"＋";margin-left:auto;color:var(--blue)}
+.topic[open] summary:after{content:"−"}
+.topic summary:hover{background:#f6faff}
+.number{
+  color:var(--blue);background:#eaf4fc;
+  padding:4px 9px;border-radius:7px;font-size:14px;
+}
+.content{padding:0 24px 25px}
+.content h3{color:var(--blue);margin-top:25px}
+.content h4{margin-bottom:5px}
+.content p{margin-top:7px}
+.content li{margin:7px 0}
+.fact{
+  background:#edf7ff;border-left:4px solid var(--blue);
+  padding:14px 17px;margin:17px 0;border-radius:5px;
+}
+.warning{
+  background:#fff7e8;border-left:4px solid var(--gold);
+  padding:14px 17px;margin:17px 0;border-radius:5px;
+}
+.timeline{
+  border-left:3px solid #b9d5eb;margin:20px 0 20px 9px;
+  padding-left:20px;
+}
+.timeline div{margin:14px 0;position:relative}
+.timeline div:before{
+  content:"";position:absolute;left:-27px;top:8px;
+  width:11px;height:11px;border-radius:50%;
+  background:var(--blue);
+}
+.tag{
+  display:inline-block;background:#eaf4fc;color:#175c91;
+  padding:3px 9px;border-radius:20px;font-size:12px;
+  font-weight:700;margin:3px;
+}
+.quiz{
+  background:white;border:1px solid var(--border);
+  border-radius:16px;padding:24px;margin-top:35px;
+}
+.question{
+  border-bottom:1px solid var(--border);
+  padding:15px 0;
+}
+.question label{display:block;margin:8px 0;cursor:pointer}
+button{
+  border:0;background:var(--blue);color:white;
+  border-radius:9px;padding:12px 18px;
+  font-size:15px;font-weight:700;cursor:pointer;
+}
+button:hover{background:#104b7b}
+.secondary{background:#eaf2f9;color:var(--navy)}
+#result{font-weight:800;font-size:20px;margin-top:15px}
+.sources a{color:var(--blue);overflow-wrap:anywhere}
+footer{
+  background:var(--navy);color:white;text-align:center;
+  padding:30px 18px;
+}
+footer a{color:#8de4ed}
+@media(max-width:600px){
+  header{padding:28px 18px}
+  main{padding:15px 12px 50px}
+  .stats{grid-template-columns:1fr}
+  .topic summary{font-size:16px;padding:16px}
+  .content{padding:0 17px 20px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="header-inner">
+<div class="eyebrow">The Complete Learning Library</div>
+<h1>MEDIEVAL HISTORY</h1>
+<p>
+Explore medieval England, powerful rulers, everyday life,
+the Black Death, trade, culture and scientific discoveries.
+A detailed revision guide built around your selected textbook topics.
+</p>
+<span class="tag">Study Guide</span>
+<span class="tag">Revision</span>
+<span class="tag">Interactive Quiz</span>
+</div>
+</header>
+
+<nav>
+<div class="nav-inner">
+<a href="#home">Home</a>
+<a href="#unit1">Unit 1: Ruling</a>
+<a href="#unit2">Unit 2: Living</a>
+<a href="#unit3">Unit 3: Travel</a>
+<a href="#quiz">Quiz</a>
+<a href="#sources">Sources</a>
+</div>
+</nav>
+
+<main>
+
+<section class="hero" id="home">
+<h2>Welcome to your history library</h2>
+<p>
+This guide explains the major events, people, causes and
+consequences of the medieval period. Use the expandable
+chapters to study individual topics. Search for a keyword,
+revise important dates and test your knowledge at the end.
+</p>
+<div class="stats">
+<div class="stat"><strong>1066</strong>Norman Conquest</div>
+<div class="stat"><strong>1348–49</strong>Black Death in England</div>
+<div class="stat"><strong>1476</strong>Caxton's English printing press</div>
+</div>
+</section>
+
+<input id="search" class="search"
+placeholder="Search topics, people, dates or keywords..."
+aria-label="Search the study guide">
+
+<!-- UNIT 1 -->
+
+<h2 class="unit" id="unit1">UNIT 1 — RULING</h2>
+
+<details class="topic" open>
+<summary><span class="number">1.1</span> The Norman invasion and the Battle of Hastings</summary>
+<div class="content">
+
+<h3>Why did people invade England?</h3>
+<p>
+In 1066, England became the target of competing claims to
+the throne. Edward the Confessor died without a surviving
+child, creating a succession crisis.
+</p>
+<p>
+Harold Godwinson was crowned king, but William, Duke of
+Normandy, claimed that he had a right to the throne.
+Harald Hardrada, King of Norway, also invaded England.
+</p>
+
+<h3>The events of 1066</h3>
+<div class="timeline">
+<div><b>January:</b> Edward the Confessor dies. Harold Godwinson becomes king.</div>
+<div><b>September:</b> Harald Hardrada invades northern England.</div>
+<div><b>25 September:</b> Harold defeats Hardrada at the Battle of Stamford Bridge.</div>
+<div><b>28 September:</b> William's Norman army lands in southern England.</div>
+<div><b>14 October:</b> Harold and William fight at the Battle of Hastings.</div>
+<div><b>Christmas Day:</b> William is crowned King of England at Westminster Abbey.</div>
+</div>
+
+<h3>Why did William win?</h3>
+<ul>
+<li><b>Military tactics:</b> Norman forces used cavalry, archers and infantry.</li>
+<li><b>Harold's exhaustion:</b> His army had marched south after fighting in the north.</li>
+<li><b>Battlefield tactics:</b> Norman feigned retreats may have drawn some English soldiers away from their defensive formation.</li>
+<li><b>Leadership:</b> William maintained control of his army during a difficult battle.</li>
+<li><b>Harold's death:</b> Harold was killed during the battle, contributing to the collapse of English resistance.</li>
+</ul>
+
+<div class="warning">
+The famous image of Harold being struck in the eye by an arrow
+appears in the Bayeux Tapestry's interpretation of events.
+Historians cannot establish every detail of his death with certainty.
+</div>
+
+<h3>Consequences of the Norman Conquest</h3>
+<ul>
+<li>William became king and established Norman rule.</li>
+<li>Many English landowners were replaced by Norman lords.</li>
+<li>Castles were constructed to strengthen military control.</li>
+<li>Norman French influenced English vocabulary and government.</li>
+<li>Norman architecture transformed churches and castles.</li>
+<li>The king gained greater control over landholding and government.</li>
+</ul>
+
+<div class="fact">
+<b>Exam connection:</b> Explain how the succession crisis,
+military tactics and Harold's death contributed to William's victory.
+</div>
+</div>
+</details>
+
+<details class="topic">
+<summary><span class="number">1.2</span> How William the Conqueror controlled England</summary>
+<div class="content">
+
+<h3>1. Castles</h3>
+<p>
+William built castles to protect strategic locations,
+house soldiers, intimidate opponents and demonstrate
+Norman authority.
+</p>
+<p>
+Early Norman castles often used the motte-and-bailey design:
+a raised earth mound, a fortified tower and an enclosed
+courtyard. Later stone castles were more durable.
+</p>
+
+<h3>2. Feudalism</h3>
+<p>
+The feudal system organised landholding around obligations
+of loyalty and service.
+</p>
+<ul>
+<li>The king granted land to powerful tenants-in-chief.</li>
+<li>Tenants-in-chief provided loyalty, military support and other obligations.</li>
+<li>Sub-tenants held land under greater lords.</li>
+<li>Peasants worked the land and owed rents or services.</li>
+</ul>
+<p>
+The system was not identical everywhere, and obligations
+varied between estates.
+</p>
+
+<h3>3. Domesday Book (1086)</h3>
+<p>
+William ordered a major survey of landholding and resources.
+Royal commissioners gathered information about estates,
+owners, values, resources and taxable wealth.
+</p>
+<p>
+The survey helped the Crown understand who controlled land
+and what revenue could be raised. It also recorded the
+major changes in land ownership following the Conquest.
+</p>
+
+<h3>4. The oath of loyalty</h3>
+<p>
+At the 1086 gathering at Old Sarum, important landholders
+swore loyalty to William. This reinforced the king's claim
+to be the ultimate authority over landholding.
+</p>
+
+<h3>5. The Church</h3>
+<p>
+Norman bishops and abbots replaced many English church
+leaders. New churches and monasteries were built, often
+using Romanesque architecture.
+</p>
+
+<div class="fact">
+<b>Remember:</b> Castles provided military control,
+feudal relationships organised land and service,
+and Domesday Book strengthened royal administration.
+</div>
+</div>
+</details>
+
+<details class="topic">
+<summary><span class="number">1.3</span> Thomas Becket, Henry II and the power of the Church</summary>
+<div class="content">
+
+<h3>Who was Thomas Becket?</h3>
+<p>
+Thomas Becket was a close associate of Henry II and served
+as the king's Chancellor. In 1162, Henry appointed him
+Archbishop of Canterbury.
+</p>
+
+<h3>Why did they disagree?</h3>
+<p>
+Henry II wanted to strengthen royal authority and bring
+some disputes involving clergy under royal legal control.
+Becket defended the Church's independence and the rights
+of ecclesiastical courts.
+</p>
+
+<h3>The key events</h3>
+<div class="timeline">
+<div><b>1162:</b> Becket becomes Archbishop of Canterbury.</div>
+<div><b>1164:</b> The Constitutions of Clarendon attempt to define royal authority over the Church.</div>
+<div><b>1165:</b> Becket goes into exile in France.</div>
+<div><b>1170:</b> Becket returns to England and the dispute resumes.</div>
+<div><b>29 December 1170:</b> Four knights from Henry's household murder Becket in Canterbury Cathedral.</div>
+<div><b>1173:</b> Becket is canonised by the Pope.</div>
+<div><b>1174:</b> Henry performs penance at Canterbury.</div>
+</div>
+
+<h3>Why was Becket murdered?</h3>
+<p>
+The knights acted after hearing Henry's angry criticism
+of Becket. Their exact intentions and the degree of
+Henry's responsibility remain subjects of historical
+discussion. The knights killed Becket inside the cathedral.
+</p>
+
+<h3>Consequences</h3>
+<ul>
+<li>Becket became a martyr in the eyes of many Christians.</li>
+<li>Canterbury became a major pilgrimage destination.</li>
+<li>Henry's reputation suffered greatly.</li>
+<li>Henry performed public penance in 1174.</li>
+<li>The event demonstrated the importance of religious authority.</li>
+</ul>
+
+<div class="fact">
+<b>Key concept:</b> Medieval kings and Church leaders could
+compete for authority because religious institutions
+possessed legal, social and spiritual influence.
+</div>
+</div>
+</details>
+
+<details class="topic">
+<summary><span class="number">1.7</span> The Peasants' Revolt of 1381</summary>
+<div class="content">
+
+<h3>Background</h3>
+<p>
+The Black Death reduced England's population and created
+a shortage of workers. Many surviving labourers sought
+better wages and conditions.
+</p>
+<p>
+The government attempted to restrict wages through
+measures such as the Ordinance of Labourers (1349)
+and Statute of Labourers (1351).
+</p>
+
+<h3>Causes of the revolt</h3>
+<ul>
+<li><b>Poll taxes:</b> Repeated taxes placed pressure on ordinary people.</li>
+<li><b>Labour restrictions:</b> Workers resented limits on wages and movement.</li>
+<li><b>Social inequality:</b> Many peasants objected to feudal obligations.</li>
+<li><b>Local grievances:</b> Royal officials and landlords were accused of unfair treatment.</li>
+</ul>
+
+<h3>Important people</h3>
+<p><b>Wat Tyler:</b> A prominent leader of the rebels.</p>
+<p><b>John Ball:</b> A preacher associated with messages about equality and social justice.</p>
+<p><b>Richard II:</b> The young king who met the rebels.</p>
+
+<h3>What happened?</h3>
+<div class="timeline">
+<div>Rebellion begins in Essex and Kent in June 1381.</div>
+<div>Rebels march towards London and enter the city.</div>
+<div>Government buildings and records are attacked.</div>
+<div>Richard II meets the rebels and makes promises.</div>
+<div>Wat Tyler is killed during a meeting at Smithfield.</div>
+<div>The revolt is suppressed and royal authority is restored.</div>
+</div>
+
+<h3>Consequences</h3>
+<ul>
+<li>The immediate rebellion failed.</li>
+<li>Many rebels were punished.</li>
+<li>The poll tax system was politically discredited.</li>
+<li>Authorities became more cautious about imposing similar taxes.</li>
+<li>Serfdom continued to decline over time, but the revolt did not immediately abolish it.</li>
+</ul>
+
+<div class="warning">
+Do not write that the revolt immediately ended feudalism.
+Its direct political aims were not achieved.
+</div>
+</div>
+</details>
+
+<!-- UNIT 2 -->
+
+<h2 class="unit" id="unit2">UNIT 2 — LIVING AND WORKING</h2>
+
+<details class="topic">
+<summary><span class="number">2.1</span> How did people live in England around 1000?</summary>
+<div class="content">
+
+<h3>Village life</h3>
+<p>
+Most people lived in rural communities and depended on
+agriculture. Villages were commonly organised around a
+manor, a church, farmland and shared resources.
+</p>
+
+<h3>Homes</h3>
+<ul>
+<li>Many ordinary homes were built from timber, wattle and daub, with thatched roofs.</li>
+<li>Rooms were often smoky because cooking and heating used open fires.</li>
+<li>Furniture and possessions were limited for poorer households.</li>
+<li>Wealthier families could afford larger buildings and more goods.</li>
+</ul>
+
+<h3>Farming</h3>
+<p>
+People grew crops such as wheat, barley and oats and kept
+animals including cattle, sheep and pigs.
+The agricultural year shaped work, food and festivals.
+</p>
+
+<h3>Social structure</h3>
+<ul>
+<li><b>King:</b> Ruled the kingdom.</li>
+<li><b>Nobles and thegns:</b> Held land and provided military or political service.</li>
+<li><b>Church officials:</b> Led religious life and often managed land.</li>
+<li><b>Free peasants:</b> Farmed land under different arrangements.</li>
+<li><b>Unfree peasants:</b> Had restrictions and obligations tied to their status.</li>
+</ul>
+
+<h3>Religion and community</h3>
+<p>
+Christianity shaped the calendar, festivals, education,
+burial customs and ideas about morality. Churches were
+important community centres.
+</p>
+
+<div class="fact">
+<b>Key idea:</b> Medieval life was shaped by agriculture,
+local communities, social status and religion.
+</div>
+</div>
+</details>
+
+<details class="topic">
+<summary><span class="number">2.5</span> The Black Death</summary>
+<div class="content">
+
+<h3>What was it?</h3>
+<p>
+The Black Death was a devastating plague pandemic that
+reached England in 1348 and spread widely during 1348–49.
+It was caused by the bacterium Yersinia pestis.
+</p>
+
+<h3>How did it spread?</h3>
+<p>
+The disease moved along trade and travel routes.
+Fleas associated with rodents were important in transmission,
+although the precise contribution of different routes
+varied by place and remains a subject of research.
+</p>
+
+<h3>Symptoms and impact</h3>
+<ul>
+<li>Fever and severe illness.</li>
+<li>Painful swollen lymph nodes in bubonic cases.</li>
+<li>Some patients developed serious respiratory or bloodstream infection.</li>
+<li>Many people died, and communities struggled to care for the sick.</li>
+</ul>
+
+<h3>How many people died?</h3>
+<p>
+Estimates vary, but English Heritage describes the loss
+as approximately one-third to one-half of England's population.
+Exact figures are uncertain because medieval population records
+were incomplete.
+</p>
+
+<h3>Consequences</h3>
+<ul>
+<li>Severe population decline.</li>
+<li>Labour shortages in farming and other occupations.</li>
+<li>Some surviving workers gained bargaining power.</li>
+<li>Wages and prices experienced pressure and change.</li>
+<li>Some villages declined or were abandoned.</li>
+<li>Religious responses included prayer, processions and charitable care.</li>
+<li>Repeated outbreaks continued in later centuries.</li>
+</ul>
+
+<h3>Why was it historically important?</h3>
+<p>
+The Black Death changed the balance between landowners
+and workers. It weakened existing economic arrangements
+and contributed to long-term social change.
+</p>
+
+<div class="fact">
+<b>Cause → Event → Consequence:</b>
+Trade connections helped disease spread → the plague caused
+mass mortality → labour became scarce and social relationships
+changed.
+</div>
+</div>
+</details>
+
+<details class="topic">
+<summary><span class="number">2.6</span> What was life like for women in the Middle Ages?</summary>
+<div class="content">
+
+<h3>Women's experiences were different</h3>
+<p>
+A woman's life depended heavily on wealth, family,
+marital status, location and occupation. Noblewomen,
+townswomen, peasant women and religious women could
+have very different responsibilities.
+</p>
+
+<h3>Peasant women</h3>
+<ul>
+<li>Worked in agriculture and helped with harvests.</li>
+<li>Prepared food, made clothing and managed household tasks.</li>
+<li>Raised children and cared for family members.</li>
+<li>Could undertake paid work or sell goods locally.</li>
+</ul>
+
+<h3>Townswomen</h3>
+<p>
+Women participated in trade, craft production, food
+selling, domestic service and family businesses.
+Some worked as independent traders or craftspeople.
+</p>
+
+<h3>Noblewomen</h3>
+<p>
+Noblewomen could manage estates, supervise servants,
+arrange household finances and participate in political
+or diplomatic relationships.
+</p>
+
+<h3>Marriage and law</h3>
+<p>
+Medieval English law treated women differently according
+to marital status. A married woman's legal identity and
+property rights were often closely tied to her husband.
+Widows could sometimes manage property and business
+more independently.
+</p>
+
+<h3>Religion and education</h3>
+<p>
+Some women entered convents and became nuns.
+A limited number had access to advanced literacy and
+scholarship. Christine de Pizan, writing in the late
+14th and early 15th centuries, became known for her
+literary works and arguments about women's education.
+</p>
+
+<div class="warning">
+Historical sources often preserve more information about
+wealthy women than ordinary women. This affects what
+historians can confidently reconstruct.
+</div>
+</div>
+</details>
+
+<details class="topic">
+<summary><span class="number">2.7</span> How did the printing press change the world?</summary>
+<div class="content">
+
+<h3>Before printing</h3>
+<p>
+Books were commonly copied by hand. Producing a manuscript
+required considerable time and skilled labour, so books
+were expensive and relatively scarce.
+</p>
+
+<h3>Movable type</h3>
+<p>
+Movable-type printing allowed individual letters and
+characters to be arranged, inked and pressed onto paper
+repeatedly. This made producing multiple copies more
+efficient than copying every page by hand.
+</p>
+
+<h3>William Caxton</h3>
+<p>
+William Caxton was an English merchant, diplomat and printer.
+He established the first printing press in England at
+Westminster in 1476, after learning printing on the continent.
+</p>
+
+<h3>How printing changed society</h3>
+<ul>
+<li>Books could be produced in larger numbers.</li>
+<li>Printing helped lower the cost of many texts over time.</li>
+<li>Ideas and information circulated more widely.</li>
+<li>English-language literature became more accessible.</li>
+<li>Religious, educational, scientific and practical texts spread.</li>
+<li>Printing supported the growth of literacy, although access remained unequal.</li>
+</ul>
+
+<h3>Limitations</h3>
+<p>
+Early printed books were still costly for many people.
+Literacy was uneven, and printing did not instantly make
+education universal.
+</p>
+
+<div class="fact">
+<b>Important distinction:</b> Gutenberg developed influential
+movable-type printing in Europe; Caxton introduced printing
+to England.
+</div>
+</div>
+</details>
+
+<details class="topic">
+<summary><span class="number">2.8</span> Poverty and the Poor Laws</summary>
+<div class="content">
+
+<h3>Why were people poor?</h3>
+<ul>
+<li>Harvest failures and food shortages.</li>
+<li>Illness, disability or loss of a household wage-earner.</li>
+<li>Low wages and insecure employment.</li>
+<li>Population growth and pressure on resources.</li>
+<li>War, displacement and economic disruption.</li>
+</ul>
+
+<h3>Medieval support</h3>
+<p>
+Religious institutions, monasteries, hospitals, almshouses,
+parishes and private charity provided different forms
+of assistance. Support was uneven and could depend on
+local resources and social attitudes.
+</p>
+
+<h3>Changes during the Tudor period</h3>
+<p>
+The Tudor government increasingly tried to regulate
+begging and organise relief. Authorities distinguished
+between people considered unable to work and those
+thought capable of working.
+</p>
+
+<h3>Important developments</h3>
+<ul>
+<li><b>1495:</b> Legislation targeted vagabondage and begging.</li>
+<li><b>1530s:</b> The dissolution of monasteries changed an important source of charitable support.</li>
+<li><b>1572:</b> A major statute introduced compulsory local poor rates and measures against vagrancy.</li>
+<li><b>1598:</b> Further legislation developed parish responsibilities.</li>
+<li><b>1601:</b> The Elizabethan Poor Law established a more systematic parish-based framework.</li>
+</ul>
+
+<h3>How did poor relief work?</h3>
+<p>
+Parishes collected local rates and appointed officials
+to administer relief. Assistance could include money,
+food, clothing, support for children or arrangements
+for employment.
+</p>
+
+<div class="warning">
+The 1601 Poor Law belongs to the end of the Tudor period.
+It should not be confused with the later Victorian workhouse
+system or the 1834 Poor Law Amendment Act.
+</div>
+</div>
+</details>
+
+<details class="topic">
+<summary><span class="number">2.9</span> How did people enjoy themselves in Tudor times?</summary>
+<div class="content">
+
+<h3>Entertainment depended on social class</h3>
+<p>
+Wealth, location and occupation influenced what people
+could afford to do. Rural workers, merchants, nobles
+and royalty experienced leisure differently.
+</p>
+
+<h3>Popular activities</h3>
+<ul>
+<li>Music, dancing and singing.</li>
+<li>Seasonal fairs and market celebrations.</li>
+<li>Religious festivals and community gatherings.</li>
+<li>Storytelling and popular plays.</li>
+<li>Games involving skill, strength or chance.</li>
+<li>Feasts and celebrations for important occasions.</li>
+</ul>
+
+<h3>Rich and poor</h3>
+<p>
+Wealthy households could host elaborate feasts,
+masques, musicians and performances. Ordinary people
+often enjoyed local festivals, dancing, games and
+community celebrations.
+</p>
+
+<h3>Theatre</h3>
+<p>
+During the later Tudor period, professional theatre
+developed rapidly. Public playhouses became important
+centres of entertainment, particularly in London.
+</p>
+
+<h3>Religion and leisure</h3>
+<p>
+Religious festivals shaped the calendar. Reformation
+changes altered some traditional celebrations and
+religious practices.
+</p>
+
+<div class="fact">
+<b>Historical thinking:</b> Avoid assuming that every
+person in Tudor England enjoyed the same activities.
+Social class and local customs mattered.
+</div>
+</div>
+</details>
+
+<!-- UNIT 3 -->
+
+<h2 class="unit unit3" id="unit3">UNIT 3 — MOVING AND TRAVELLING</h2>
+
+<details class="topic">
+<summary><span class="number">3.1</span> The impact of Arab culture on the medieval world</summary>
+<div class="content">
+
+<h3>Travel and trade</h3>
+<p>
+The medieval Islamic world connected regions across
+North Africa, the Middle East, parts of Europe and Asia.
+Merchants travelled by land and sea, exchanging goods,
+knowledge and ideas.
+</p>
+
+<h3>Trade goods</h3>
+<ul>
+<li>Spices and aromatics.</li>
+<li>Textiles and silk.</li>
+<li>Paper, books and manufactured goods.</li>
+<li>Metals, ceramics and glassware.</li>
+<li>Agricultural products.</li>
+</ul>
+
+<h3>Important trade routes</h3>
+<p>
+The Mediterranean connected ports in Europe, North Africa
+and the Middle East. Caravan routes crossed deserts and
+linked cities and trading centres. Indian Ocean routes
+connected East Africa, Arabia, India and Southeast Asia.
+</p>
+
+<h3>Science and medicine</h3>
+<p>
+Scholars working in Arabic and other languages studied,
+translated, criticised and developed knowledge inherited
+from Greek, Persian, Indian and other traditions.
+</p>
+
+<h3>Important scholars</h3>
+<ul>
+<li><b>Al-Khwarizmi:</b> Important contributions to algebra and mathematical methods.</li>
+<li><b>Ibn Sina (Avicenna):</b> Wrote the influential medical work known as the Canon of Medicine.</li>
+<li><b>Al-Razi:</b> Physician and medical writer whose works influenced later medicine.</li>
+<li><b>Ibn al-Haytham:</b> Made important contributions to optics and the study of vision.</li>
+</ul>
+
+<h3>Medicine</h3>
+<p>
+Medical scholars organised earlier knowledge, developed
+medical encyclopedias and investigated treatments.
+Hospitals in several Islamic cities served as centres
+for patient care and medical learning.
+</p>
+
+<h3>Mathematics and astronomy</h3>
+<p>
+Scholars developed algebraic methods, mathematical
+tables and astronomical instruments. The astrolabe
+was used to make observations and solve practical
+problems involving the sky.
+</p>
+
+<h3>How did knowledge travel?</h3>
+<ul>
+<li>Merchants carried books and ideas between regions.</li>
+<li>Scholars translated works between languages.</li>
+<li>Libraries and learning centres preserved manuscripts.</li>
+<li>Travel and cultural contact encouraged exchange.</li>
+<li>Texts were translated into Latin and other languages, influencing later European scholarship.</li>
+</ul>
+
+<div class="fact">
+<b>Important:</b> Scientific knowledge developed through
+many cultures. Medieval Islamic scholarship both preserved
+earlier learning and produced original contributions.
+</div>
+</div>
+</details>
+
+<details class="topic">
+<summary><span class="number">3.2</span> Medieval travel and connections</summary>
+<div class="content">
+
+<h3>Why did people travel?</h3>
+<ul>
+<li>Trade and business.</li>
+<li>Religious pilgrimage.</li>
+<li>Diplomacy and government service.</li>
+<li>Education and scholarship.</li>
+<li>Military campaigns.</li>
+<li>Migration and family connections.</li>
+</ul>
+
+<h3>Travel in England</h3>
+<p>
+People travelled on foot, by horse, in carts and by boat.
+Road conditions varied, and journeys could be slow,
+expensive and uncomfortable.
+</p>
+
+<h3>Risks</h3>
+<ul>
+<li>Bad weather and difficult roads.</li>
+<li>Robbery and theft.</li>
+<li>Illness and injury.</li>
+<li>River crossings and unsafe routes.</li>
+<li>Unfamiliar languages and local customs.</li>
+</ul>
+
+<h3>How travel connected societies</h3>
+<p>
+Travellers moved goods, stories, religious ideas,
+technologies and knowledge. Ports, markets, fairs
+and pilgrimage sites became meeting points for people
+from different regions.
+</p>
+</div>
+</details>
+
+<section class="quiz" id="quiz">
+<h2>Knowledge Check — Medieval History Quiz</h2>
+<p>Choose one answer for each question, then submit to see your score.</p>
+
+<form id="quizForm">
+
+<div class="question">
+<b>1. In which year was the Battle of Hastings?</b>
+<label><input type="radio" name="q1" value="a"> 1000</label>
+<label><input type="radio" name="q1" value="b"> 1066</label>
+<label><input type="radio" name="q1" value="c"> 1215</label>
+</div>
+
+<div class="question">
+<b>2. Who defeated Harold Godwinson?</b>
+<label><input type="radio" name="q2" value="a"> William, Duke of Normandy</label>
+<label><input type="radio" name="q2" value="b"> Henry VIII</label>
+<label><input type="radio" name="q2" value="c"> Richard II</label>
+</div>
+
+<div class="question">
+<b>3. What was Domesday Book mainly used to record?</b>
+<label><input type="radio" name="q3" value="a"> Theatre performances</label>
+<label><input type="radio" name="q3" value="b"> Landholding and resources</label>
+<label><input type="radio" name="q3" value="c"> Naval battles</label>
+</div>
+
+<div class="question">
+<b>4. Who was murdered in Canterbury Cathedral in 1170?</b>
+<label><input type="radio" name="q4" value="a"> Thomas Becket</label>
+<label><input type="radio" name="q4" value="b"> Wat Tyler</label>
+<label><input type="radio" name="q4" value="c"> William Caxton</label>
+</div>
+
+<div class="question">
+<b>5. When did the Black Death reach England?</b>
+<label><input type="radio" name="q5" value="a"> 1066</label>
+<label><input type="radio" name="q5" value="b"> 1348</label>
+<label><input type="radio" name="q5" value="c"> 1601</label>
+</div>
+
+<div class="question">
+<b>6. Who led the Peasants' Revolt alongside other rebels?</b>
+<label><input type="radio" name="q6" value="a"> Wat Tyler</label>
+<label><input type="radio" name="q6" value="b"> William Caxton</label>
+<label><input type="radio" name="q6" value="c"> Thomas Becket</label>
+</div>
+
+<div class="question">
+<b>7. Who introduced printing to England?</b>
+<label><input type="radio" name="q7" value="a"> Isaac Newton</label>
+<label><input type="radio" name="q7" value="b"> William Caxton</label>
+<label><input type="radio" name="q7" value="c"> Geoffrey Chaucer</label>
+</div>
+
+<div class="question">
+<b>8. Which institution often provided medieval charitable support?</b>
+<label><input type="radio" name="q8" value="a"> Monasteries and religious institutions</label>
+<label><input type="radio" name="q8" value="b"> Modern national insurance offices</label>
+<label><input type="radio" name="q8" value="c"> Modern social media companies</label>
+</div>
+
+<div class="question">
+<b>9. Which city was a major centre of medieval scholarship?</b>
+<label><input type="radio" name="q9" value="a"> Baghdad</label>
+<label><input type="radio" name="q9" value="b"> Reykjavik</label>
+<label><input type="radio" name="q9" value="c"> Ottawa</label>
+</div>
+
+<div class="question">
+<b>10. What was one major effect of the Black Death?</b>
+<label><input type="radio" name="q10" value="a"> Labour shortages</label>
+<label><input type="radio" name="q10" value="b"> Immediate universal education</label>
+<label><input type="radio" name="q10" value="c"> The end of all farming</label>
+</div>
+
+<button type="submit">Check My Answers</button>
+<button type="reset" class="secondary">Try Again</button>
+<div id="result" aria-live="polite"></div>
+<div id="feedback"></div>
+</form>
+</section>
+
+<section class="hero sources" id="sources">
+<h2>Research Sources and Further Reading</h2>
+<p>
+The following educational and historical institutions
+provide material for checking facts and exploring
+primary sources.
+</p>
+<ul>
+<li><a href="https://www.english-heritage.org.uk/learn/story-of-england/medieval/" target="_blank" rel="noopener">English Heritage — Medieval England</a></li>
+<li><a href="https://www.nationalarchives.gov.uk/education/teaching-resources/what-does-domesday-book-tell-us/" target="_blank" rel="noopener">The National Archives — Domesday Book</a></li>
+<li><a href="https://www.english-heritage.org.uk/visit/places/dover-castle/history-and-stories/becket-henry-dover-castle/" target="_blank" rel="noopener">English Heritage — Thomas Becket and Henry II</a></li>
+<li><a href="https://www.nationalarchives.gov.uk/education/teaching-resources/medieval-women/" target="_blank" rel="noopener">The National Archives — Medieval Women</a></li>
+<li><a href="https://guides.loc.gov/english-print" target="_blank" rel="noopener">Library of Congress — England and the Printing Press</a></li>
+<li><a href="https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/poverty-poor-laws/" target="_blank" rel="noopener">The National Archives — Poverty and the Poor Laws</a></li>
+<li><a href="https://guides.loc.gov/medieval-islamic-science" target="_blank" rel="noopener">Library of Congress — Medieval Islamic Science</a></li>
+<li><a href="https://www.nlm.nih.gov/exhibition/odysseyofknowledge/index.html" target="_blank" rel="noopener">US National Library of Medicine — Medieval Knowledge</a></li>
+</ul>
+<p><b>Study tip:</b> Use your textbook as the main course reference.
+This guide is supplementary and explains the historical context
+in accessible language.</p>
+</section>
+
+</main>
+
+<footer>
+<h3>MEDIEVAL HISTORY</h3>
+<p>Learn the past. Understand the present.</p>
+<p>Educational study project · GitHub Pages</p>
+</footer>
+
+<script>
+const search = document.getElementById("search");
+const topics = [...document.querySelectorAll(".topic")];
+
+search.addEventListener("input", () => {
+  const term = search.value.toLowerCase().trim();
+
+  topics.forEach(topic => {
+    const match = topic.innerText.toLowerCase().includes(term);
+    topic.style.display = match ? "" : "none";
+
+    if (term && match) topic.open = true;
+  });
+});
+
+const answers = {
+  q1:"b", q2:"a", q3:"b", q4:"a", q5:"b",
+  q6:"a", q7:"b", q8:"a", q9:"a", q10:"a"
+};
+
+const explanations = [
+  "The Battle of Hastings took place on 14 October 1066.",
+  "William, Duke of Normandy, defeated Harold Godwinson.",
+  "Domesday Book recorded landholding, property and resources.",
+  "Thomas Becket was murdered in Canterbury Cathedral in 1170.",
+  "The Black Death reached England in 1348.",
+  "Wat Tyler was a prominent rebel leader in 1381.",
+  "William Caxton established England's first printing press in 1476.",
+  "Religious institutions and local charity supported people in need.",
+  "Baghdad was an important centre of learning.",
+  "The Black Death caused severe population loss and labour shortages."
+];
+
+document.getElementById("quizForm").addEventListener("submit", event => {
+  event.preventDefault();
+
+  let score = 0;
+  let report = "";
+
+  Object.keys(answers).forEach((key, index) => {
+    const selected = document.querySelector(
+      'input[name="' + key + '"]:checked'
+    );
+
+    if (selected && selected.value === answers[key]) {
+      score++;
+      report += "<p>✓ Question " + (index+1) +
+        ": Correct. " + explanations[index] + "</p>";
+    } else {
+      report += "<p>✗ Question " + (index+1) +
+        ": " + explanations[index] + "</p>";
+    }
+  });
+
+  document.getElementById("result").textContent =
+    "Your score: " + score + " / 10";
+
+  document.getElementById("feedback").innerHTML = report;
+});
+
+document.getElementById("quizForm").addEventListener("reset", () => {
+  document.getElementById("result").textContent = "";
+  document.getElementById("feedback").innerHTML = "";
+});
+</script>
+
+</body>
+</html>
